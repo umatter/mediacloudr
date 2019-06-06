@@ -1,0 +1,594 @@
+tags_id,tag
+9360833,education and schools
+9360834,teachers and school employees
+9360835,privacy
+9360836,politics and government
+9360837,law and legislation
+9360838,tests and testing
+9360839,computers and the internet
+9360840,finances
+9360841,abortion
+9360842,no index terms from nytimes
+9360843,privatization
+9360844,books and literature
+9360845,motion pictures
+9360846,united states politics and government
+9360847,christians and christianity
+9360848,religion and churches
+9360849,advertising and marketing
+9360850,budgets and budgeting
+9360851,elections
+9360852,medicine and health
+9360853,presidents and presidency (us)
+9360854,presidential elections (us)
+9360855,minorities (us)
+9360856,recordings (audio)
+9360857,handicapped
+9360858,homosexuality
+9360859,labor
+9360860,suits and litigation
+9360861,colleges and universities
+9360862,recordings (video)
+9360863,blacks
+9360864,public opinion
+9360865,primaries
+9360866,lobbying and lobbyists
+9360867,hispanic-americans
+9360868,"armament, defense and military forces"
+9360869,appointments and executive changes
+9360870,copyrights
+9360871,philanthropy
+9360872,mathematics
+9360873,recession and depression
+9360874,reading and writing skills
+9360875,writing and writers
+9360876,ratings and rating systems
+9360877,jews
+9360878,language and languages
+9360879,television
+9360880,computer software
+9360881,police
+9360882,taxation
+9360883,governors (us)
+9360884,oil (petroleum) and gasoline
+9360885,news and news media
+9360886,global warming
+9360887,environment
+9360888,islam
+9360889,presidential election of 1988
+9360890,drug abuse and traffic
+9360891,marijuana
+9360892,women
+9360893,church-state relations
+9360894,editorials
+9360895,gun control
+9360896,election issues
+9360897,immigration and refugees
+9360898,sex
+9360899,"awards, decorations and honors"
+9360900,terrorism
+9360901,nazi policies toward jews and minorities
+9360902,weather
+9360903,electronic mail
+9360904,quotation of the day
+9360905,decisions and verdicts
+9360906,equal educational opportunities
+9360907,libraries and librarians
+9360908,advertising
+9360909,baseball
+9360910,illegal aliens
+9360911,media
+9360912,crime and criminals
+9360913,roads and traffic
+9360914,automobiles
+9360915,ethics
+9360916,art
+9360917,property taxes
+9360918,speech
+9360919,freedom of speech and expression
+9360920,political advertising
+9360921,reviews
+9360922,sex crimes
+9360923,prostitution
+9360924,insurance
+9360925,hurricanes and tropical storms
+9360926,hurricane katrina
+9360927,floods
+9360928,election results
+9360929,strikes
+9360930,united states armament and defense
+9360931,basketball
+9360932,horse racing
+9360933,united states international relations
+9360934,international relations
+9360935,firearms
+9360936,health insurance and managed care
+9360937,health insurance
+9360938,discrimination
+9360939,music
+9360940,airlines and airplanes
+9360941,drugs (pharmaceuticals)
+9360942,diseases and conditions
+9360943,banks and banking
+9360944,college athletics
+9360945,football
+9360946,impeachment
+9360947,frauds and swindling
+9360948,new year
+9360949,correction stories
+9360950,trees and shrubs
+9360951,home repairs
+9360952,olympic games
+9360953,apparel
+9360954,home furnishings
+9360955,earthquakes
+9360956,home repairs and improvements
+9360957,world trade center (nyc)
+9360958,fish and other marine life
+9360959,office buildings and commercial properties
+9360960,noise
+9360961,legislatures and parliaments
+9360962,tuition
+9360963,presidential election of 2004
+9360964,mayors
+9360965,soccer
+9360966,restaurants
+9360967,unemployment
+9360968,biographical information
+9360969,radio
+9360970,"conventions, national (us)"
+9360971,computer and video games
+9360972,presidential election of 2008
+9360973,super bowl
+9360974,demonstrations and riots
+9360975,marriages
+9360976,deaths (obituaries)
+9360977,accidents and safety
+9360978,standards and standardization
+9360979,referendums
+9360980,exercise
+9360981,children and youth
+9360982,murders and attempted murders
+9360983,international trade and world market
+9360984,wages and salaries
+9360985,coaches and managers
+9360986,archaeology and anthropology
+9360987,palestinians
+9360988,birth control and family planning
+9360989,economic conditions and trends
+9360990,united states economy
+9360991,telephones and telecommunications
+9360992,restoration and rehabilitation
+9360993,dairy products
+9360994,animals
+9360995,sales
+9360996,"prices (fares, fees and rates)"
+9360997,energy and power
+9360998,atomic weapons
+9360999,holidays and special occasions
+9361000,medicaid
+9361001,medicare
+9361002,christmas
+9361003,"war crimes, genocide and crimes against humanity"
+9361004,presidential election of 2000
+9361005,fires and firefighters
+9361006,fires and firemen
+9361007,air pollution
+9361008,robberies and thefts
+9361009,conventions and conferences
+9361010,food
+9361011,diet and nutrition
+9361012,stocks and bonds
+9361013,electric light and power
+9361014,light
+9361015,blackouts and brownouts (electrical)
+9361016,theater
+9361017,hijacking
+9361018,pentagon building
+9361019,"suspensions, dismissals and resignations"
+9361020,scholarships and fellowships
+9361021,newspapers
+9361022,travel and vacations
+9361023,building (construction)
+9361024,games
+9361025,torture
+9361026,cellular telephones
+9361027,sentences (criminal)
+9361028,bridges and tunnels
+9361029,affirmative action
+9361030,credit
+9361031,birds
+9361032,space
+9361033,postal service
+9361034,pornography and obscenity
+9361035,steroids
+9361036,embargoes and economic sanctions
+9361037,smoking and tobacco
+9361038,social security (us)
+9361039,child care
+9361040,inventions and patents
+9361041,vaccination and immunization
+9361042,prisons and prisoners
+9361043,retirement
+9361044,currency
+9361045,transit systems
+9361046,subways
+9361047,snow and snowstorms
+9361048,housing
+9361049,priests
+9361050,company reports
+9361051,corporations
+9361052,layoffs and job reductions
+9361053,magazines
+9361054,aged
+9361055,viruses
+9361056,biological and chemical warfare
+9361057,opera
+9361058,parades
+9361059,states (us)
+9361060,constitutional amendments
+9361061,cancer
+9361062,pensions and retirement plans
+9361063,child abuse and neglect
+9361064,government employees
+9361065,culture
+9361066,blacks (in us)
+9361067,radiation
+9361068,documentary films and programs
+9361069,retail stores and trade
+9361070,spanish language
+9361071,"mergers, acquisitions and divestitures"
+9361072,small business
+9361073,poetry and poets
+9361074,rock music
+9361075,identification devices
+9361076,space shuttle
+9361077,atomic energy
+9361078,interest rates
+9361079,police brutality and misconduct
+9361080,science and technology
+9361081,running
+9361082,marathon running
+9361083,research
+9361084,weight
+9361085,homeless persons
+9361086,cocaine and crack cocaine
+9361087,suicides and suicide attempts
+9361088,bicycles and bicycling
+9361089,buses
+9361090,pregnancy and obstetrics
+9361091,contests and prizes
+9361092,vetoes (us)
+9361093,jewels and jewelry
+9361094,academy awards (oscars)
+9361095,parties (social)
+9361096,festivals
+9361097,"divorce, separations and annulments"
+9361098,gas (fuel)
+9361099,photography
+9361100,comedy and humor
+9361101,world series
+9361102,hotels and motels
+9361103,serial murders
+9361104,textiles
+9361105,gambling
+9361106,cooking and cookbooks
+9361107,recipes
+9361108,beverages
+9361109,tennis
+9361110,shoes and boots
+9361111,dogs
+9361112,"hockey, ice"
+9361113,extradition
+9361114,boxing
+9361115,"indians, american"
+9361116,violence
+9361117,chemicals
+9361118,sports of the times (times column)
+9361119,arson
+9361120,vietnam war
+9361121,boycotts
+9361122,toys
+9361123,cruises
+9361124,ships and shipping
+9361125,trade shows and fairs
+9361126,mental health and disorders
+9361127,wines
+9361128,alcoholic beverages
+9361129,dancing
+9361130,golf
+9361131,auctions
+9361132,mutual funds
+9361133,swimming
+9361134,historic buildings and sites
+9361135,weddings and engagements
+9361136,freedom and human rights
+9361137,athletics and sports
+9361138,draft and recruitment (sports)
+9361139,hospitals
+9361140,genetics and heredity
+9361141,foreign aid
+9361142,anthrax
+9361143,acquired immune deficiency syndrome
+9361144,insects
+9361145,consumer protection
+9361146,mines and mining
+9361147,blood
+9361148,doctors
+9361149,nursing and nurses
+9361150,airports
+9361151,water
+9361152,death and dying
+9361153,dna (deoxyribonucleic acid)
+9361154,third world and developing countries
+9361155,food contamination and poisoning
+9361156,agriculture
+9361157,livestock
+9361158,acquired immune deficiency syndrome (aids)
+9361159,no index terms
+9361160,regulation and deregulation of industry
+9361161,taxicabs and taxicab drivers
+9361162,meat
+9361163,babies
+9361164,shortages
+9361165,nasdaq composite index
+9361166,government bonds
+9361167,security and warning systems
+9361168,grain
+9361169,transplants
+9361170,freedom of the press
+9361171,metals and minerals
+9361172,computer security
+9361173,bombs and explosives
+9361174,population
+9361175,mortgages
+9361176,customs (tariff)
+9361177,farmers
+9361178,automobile racing
+9361179,biology and biochemistry
+9361180,anatomy and physiology
+9361181,production
+9361182,factories and industrial plants
+9361183,track and field
+9361184,summer games (olympics)
+9361185,foreign investments
+9361186,stadiums and arenas
+9361187,foreign service
+9361188,ncaa basketball tournament
+9361189,waste materials and disposal
+9361190,hunting and trapping
+9361191,deportation
+9361192,casinos
+9361193,world cup (soccer)
+9361194,reproduction (biological)
+9361195,surgery and surgeons
+9361196,kidnapping
+9361197,heart
+9361198,alcohol abuse
+9361199,domestic violence
+9361200,capital punishment
+9361201,hostages
+9361202,world war ii (1939-45)
+9361203,war and revolution
+9361204,civil war and guerrilla warfare
+9361205,jury system
+9361206,entertainment and amusements
+9361207,child abuse
+9361208,sexual harassment
+9361209,war crimes and criminals
+9361210,censorship
+9361211,railroads
+9361212,asylum (political)
+9361213,legal profession
+9361214,courts
+9361215,political prisoners
+9361216,prisoners of war
+9361217,men
+9361218,dow jones stock average
+9361219,probation and parole
+9361220,drunken and reckless driving
+9361221,organized crime
+9361222,futures and options trading
+9361223,securities and commodities violations
+9361224,assaults
+9361225,physics
+9361226,bribery
+9361227,debating
+9361228,recalls and bans of products
+9361229,credit and money cards
+9361230,drought
+9361231,fines (penalties)
+9361232,perjury
+9361233,bars
+9361237,trades (sports)
+9361238,skiing
+9361239,attacks on police
+9361240,race
+9361241,bankruptcies
+9361242,bridge (card game)
+9361243,renting and leasing
+9361244,condominiums
+9361245,commuting
+9361246,stations and terminals (passenger)
+9361247,shutdowns (institutional)
+9361248,beaches
+9361249,families and family life
+9361250,brain
+9361251,book trade
+9361252,futures trading
+9361253,federal taxes (us)
+9361254,tax credits
+9361255,assassinations and attempted assassinations
+9361256,recycling of waste materials
+9361257,automobile insurance and liability
+9361258,delays (transportation)
+9361259,transportation
+9361260,flowers and plants
+9361261,steel and iron
+9361262,chemistry
+9361263,anti-semitism
+9361264,soft drinks
+9361265,consumer behavior
+9361266,parks and other recreation areas
+9361267,leisure
+9361268,gardens and gardening
+9361269,figure skating
+9361270,ice skating
+9361271,"fishing, sport"
+9361272,executives and management
+9361273,coups d'etat and attempted coups d'etat
+9361274,supermarkets
+9361275,rescues
+9361276,accounting and accountants
+9361277,rain
+9361278,judges
+9361279,water pollution
+9361280,satellites
+9361281,trucks and trucking
+9361282,playoff games
+9361283,"fishing, commercial"
+9361284,antitrust actions and laws
+9361285,royal family
+9361286,personal finances
+9361287,parking
+9361288,utility vehicles and other light trucks
+9361289,racketeering and racketeers
+9361290,interscholastic athletics
+9361291,chess
+9361292,jazz
+9361293,breast
+9361294,explosions
+9361295,foster care
+9361296,classical music
+9361297,intelligence
+9361298,navies
+9361299,architecture
+9361300,organized labor
+9361301,bakeries and baked products
+9361302,espionage
+9361303,local government
+9361304,interior design
+9361305,guards
+9361306,computer chips
+9361307,boats and boating
+9361308,forests and forestry
+9361309,zoning
+9361310,hiring and promotion
+9361311,area planning and renewal
+9361312,marketing and merchandising
+9361313,embezzlement
+9361314,boards of directors
+9361315,smuggling
+9361316,land use policies
+9361317,monuments and memorials
+9361318,endangered and extinct species
+9361319,"age, chronological"
+9361320,welfare (us)
+9361321,child custody and support
+9361322,wiretapping and other eavesdropping devices and methods
+9361323,ferries
+9361324,history
+9361325,collectors and collections
+9361326,missiles and missile defense systems
+9361327,arms control and limitation and disarmament
+9361328,constitutions
+9361329,shopping centers
+9361330,tax evasion
+9361331,design
+9361332,free agents (sports)
+9361333,genetic engineering
+9361334,pilots
+9361335,military aircraft
+9361336,liability for products
+9361337,real estate
+9361338,veterans
+9361339,antiques
+9361340,missiles
+9361341,furniture
+9361342,drug traffic
+9361343,discount selling
+9361344,savings
+9361345,fruit
+9361346,deaths
+9361347,united states open (tennis)
+9361348,english language
+9361349,records and achievements
+9361350,united states foreign service
+9361351,recording equipment
+9361352,nightclubs and cabarets
+9361353,beer
+9361354,brokers and brokerage firms
+9361355,buildings (structures)
+9361356,"arbitration, conciliation and mediation"
+9361357,hazardous and toxic substances
+9361358,defense contracts
+9361359,arms sales abroad
+9361360,military personnel
+9361361,missing persons
+9361362,concerts and recitals
+9361363,drug addiction and abuse
+9361364,geographic profiles
+9361365,geography
+9361366,fast food industry
+9361377,labeling and labels
+9361378,military bases and installations
+9361379,vice presidents and vice presidency (us)
+9361380,volunteers
+9361381,layoffs (labor)
+9361382,income
+9361383,gifts
+9361384,treaties
+9361385,shootings
+9361386,city councils
+9361387,social conditions and trends
+9361388,urban areas
+9361389,shows (exhibits)
+9361390,data processing (computers)
+9361391,stock prices and trading volume
+9361392,office buildings
+9361393,immigration and emigration
+9361396,kurds
+9361405,income tax
+9361413,software products
+9361414,personal computers
+9361419,summit conferences
+9361420,prices
+9361421,bombs and bomb plots
+9361425,racial relations
+9361962,search and seizure
+9361963,museums
+9361966,"health, personal"
+9361975,contracts
+9361979,industry profiles
+9361980,refugees and expatriates
+9361982,trials
+9361983,disclosure of information
+9361984,unemployment and job market
+9361985,suburbs
+9361986,special sections
+9361987,reform and reorganization
+9361988,cooperatives
+9361989,federal aid (us)
+9361990,relocation of business
+9361991,cable television
+9361992,attorneys general
+9361993,electronics
+9361994,book reviews
+9361995,"names, organizational"
+9361999,"minorities (ethnic, racial, religious)"
+9362000,"new models, design and products"
+9362001,terms not available
+9362002,account changes
+9362003,surveys and series
+9362004,military action
+9362005,whitewater case
+9362006,company and organization profiles
+9362040,savings and loan associations
+9362045,art shows
+9362046,independence movements
+9362047,life styles
+9634119,suits and claims against government
+10409601,presidential election of 1996
+31464507,forecasts
+31545210,threats and threatening messages
+37017464,persian gulf war
