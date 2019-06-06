@@ -2,3 +2,8 @@
 .Rhistory
 .Rproj.user/
 _misc/
+.Rproj.user
+.Rbuildignore
+R/sentences.R
+mediacloudr.Rproj
+vignette.Rmd
