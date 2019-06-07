@@ -52,6 +52,7 @@ stories_public_list <-
        
        # fetch the data
        url <- build_url(REQUEST_URL)
+       message(paste0("Query API: ", url, "\n"))
        data <- try(fromJSON(url))
        if (class(data)[1] == "try-error") {
          stories_list <- data.frame(ap_syndicated = NA,
@@ -77,7 +78,6 @@ stories_public_list <-
            stories_list <- data
            stories_list$q <- q
            stories_list$fq <- fq
-           stories_list$limit <- limit
 
          } else {
            # no results found, return dummy df
