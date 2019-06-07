@@ -27,6 +27,7 @@ grab_storiescount_mediatag <-
           # method does not return information about the media (only counts per timeframe)
           message("Get media ids...\n")
           media_outlets <- grab_media_mediatag(tags_id_media = tags_id_media) # improve this to ensure getting all media associated with this tag!
+          media_outlets <- media_outlets[!media_outlets$name == "NA" ,]
           
           # prepare iteration
           n_calls <- 0

@@ -93,8 +93,8 @@ grab_media_mediatag <-
                }
 
                # stop early if there is a restriction on total number of calls
+               n_calls <- n_calls + 1
                if (!is.null(max_calls)){
-                    n_calls <- n_calls + 1
                     if (n_calls==max_calls) break
                }
                
