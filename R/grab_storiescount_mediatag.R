@@ -26,8 +26,7 @@ grab_storiescount_mediatag <-
           # it is necessary to iterate over media ids because the counts_public/count
           # method does not return information about the media (only counts per timeframe)
           message("Get media ids...\n")
-          media_outlets <- media_list(rows = 100,
-                                      tags_id = tags_id_media) # improve this to ensure getting all media associated with this tag!
+          media_outlets <- grab_media_mediatag(tags_id_media = tags_id_media) # improve this to ensure getting all media associated with this tag!
           
           # prepare iteration
           n_calls <- 0
