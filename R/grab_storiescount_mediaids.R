@@ -36,50 +36,74 @@ grab_storiescount_mediaids <-
                               fq=fq_char)
           
           message("Get counts for each media id...\n")
-          # start stream of api calls and responses
-          while (TRUE) {
-               
+          
+          if (length(media_ids)==1){
                # prepare query
                media_id <- media_ids[1]
                q <- paste0("media_id:", media_id)
                
                # query one batch at a time
-              counts <- stories_public_count(q = q,
-                                             fq = fq,
-                                             split = split,
-                                             split_period = split_period)
-              counts$media_id <- media_id
-              counts$fq <- fq_char
-    
-               # all counts grabbed? (or run into error)
-               if (length(counts)==0) break
-              
+               counts <- stories_public_count(q = q,
+                                              fq = fq,
+                                              split = split,
+                                              split_period = split_period)
+               counts$media_id <- media_id
+               counts$fq <- fq_char
                
-               # add counts to list of counts
-              counts$media_id <- media_id
-               if (outlets_queried==0){
-                    all_counts <- rbindlist(list(all_counts[-1],
-                                                  counts),
-                                             use.names = TRUE,
-                                             fill = TRUE)
-               } else {
-                    all_counts <- rbindlist(list(all_counts,
-                                                  counts),
-                                             use.names = TRUE,
-                                             fill = TRUE)
+               # ensure output format
+               all_counts <- rbindlist(list(all_counts[-1],
+                                            counts),
+                                       use.names = TRUE,
+                                       fill = TRUE)
+          } else {
+               
+               # start stream of api calls and responses
+               while (TRUE) {
+                    
+                    # prepare query
+                    media_id <- media_ids[1]
+                    q <- paste0("media_id:", media_id)
+                    
+                    # query one batch at a time
+                    counts <- stories_public_count(q = q,
+                                                   fq = fq,
+                                                   split = split,
+                                                   split_period = split_period)
+                    counts$media_id <- media_id
+                    counts$fq <- fq_char
+                    
+                    # all counts grabbed? (or run into error)
+                    if (length(counts)==0) break
+                    
+                    
+                    # add counts to list of counts
+                    counts$media_id <- media_id
+                    if (outlets_queried==0){
+                         all_counts <- rbindlist(list(all_counts[-1],
+                                                      counts),
+                                                 use.names = TRUE,
+                                                 fill = TRUE)
+                    } else {
+                         all_counts <- rbindlist(list(all_counts,
+                                                      counts),
+                                                 use.names = TRUE,
+                                                 fill = TRUE)
+                    }
+                    
+                    # stop early if there is a restriction on total number of calls
+                    # if (!is.null(max_calls)){
+                    #      n_calls <- n_calls + 1
+                    #      if (n_calls==max_calls) break
+                    # }
+                    
+                    # update for next batch or exit loop if done
+                    outlets_queried <- outlets_queried + 1
+                    if (n_outlets==outlets_queried) break
+                    media_ids <- media_ids[-1]
                }
-
-               # stop early if there is a restriction on total number of calls
-               # if (!is.null(max_calls)){
-               #      n_calls <- n_calls + 1
-               #      if (n_calls==max_calls) break
-               # }
                
-               # update for next batch or exit loop if done
-               outlets_queried <- outlets_queried + 1
-               if (n_outlets==outlets_queried) break
-               media_ids <- media_ids[-1]
           }
+          
           
 
        return(all_counts)
