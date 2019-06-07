@@ -2,6 +2,7 @@
 
 export(find_tags_id)
 export(get_tags_id)
+export(grab_media_mediatag)
 export(grab_stories_mediatag)
 export(grab_storiescount_mediatag)
 export(media_list)
