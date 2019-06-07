@@ -27,9 +27,8 @@
 
 stories_public_count <-
      function (q, fq = NULL, split = 0, split_period = "day") {
-       # check if arguments are valid for API method
-       stopifnot(is.character(q))
-       stopifnot(is.character(fq))
+ 
+          
        
        
        # parse dummy url
@@ -44,12 +43,12 @@ stories_public_count <-
        
        # fetch the data
        url <- build_url(REQUEST_URL)
+       message(paste0("Query API: ", url))
        data <- try(fromJSON(url))
        if (class(data)[1] == "try-error") {
          count <- data.frame(count=as.integer(NA),
                              date="NA",
                              q = q,
-                             fq = fq,
                              split_period = split_period)
        } else {
          
@@ -61,13 +60,11 @@ stories_public_count <-
              count <- data.frame(count = data[["count"]],
                                  date = "NA",
                                  q = q,
-                                 fq = fq,
                                  split_period = "NA")
            } else {
              # result is counts per date period
              count <- data[["counts"]]
              count$q <- q
-             count$fq <- fq
              count$split_period <- split_period
            }
            
