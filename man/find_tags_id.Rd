@@ -11,11 +11,15 @@ find_tags_id(tag_name, tag_sets_id, last_tags_id = 0, rows = 20)
 \arguments{
 \item{tag_name}{character, the name of the tag for which the id should be found.}
 
+\item{tag_sets_id}{character, the tag sets id of the tag sets to search in.}
+
 \item{last_tags_id}{integer, Return tags with a tags_id is greater than this value (default = 0)}
 
 \item{rows}{integer, number of tag sets to return. Cannot be larger than 100 (default = 20)}
 
 \item{tag_name}{character, the name of the tag for which the id should be found.}
+
+\item{tag_sets_id}{character, the tag sets id of the tag sets to search in.}
 
 \item{last_tags_id}{integer, Return tags with a tags_id is greater than this value (default = 0)}
 

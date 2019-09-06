@@ -3,7 +3,7 @@
 ##' Fetch data from the api/v2/tags/list method of the MediaCloud API.
 ##' @usage tags_list(last_tag_sets_id = 0, tag_sets_id=NULL, rows = 20, public = NULL, search = NULL, similar_tags_id = NULL)
 ##' @param last_tags_id integer, Return tags with a tags_id is greater than this value (default = 0)
-##' @tag_sets_id character, Return tags belonging to the given tag sets. The most useful tag set is tag set 5.
+##' @param tag_sets_id character, Return tags belonging to the given tag sets. The most useful tag set is tag set 5.
 ##'  Can be passed multiple times to return any tag belonging to any of the tag sets.(default = NULL)
 ##' @param rows integer, number of tag sets to return. Cannot be larger than 100 (default = 20)
 ##' @param public integer, If public=1, return only public tags (default = NULL)

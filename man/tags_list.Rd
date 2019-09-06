@@ -9,6 +9,9 @@ tags_list(last_tag_sets_id = 0, tag_sets_id=NULL, rows = 20, public = NULL, sear
 \arguments{
 \item{last_tags_id}{integer, Return tags with a tags_id is greater than this value (default = 0)}
 
+\item{tag_sets_id}{character, Return tags belonging to the given tag sets. The most useful tag set is tag set 5.
+Can be passed multiple times to return any tag belonging to any of the tag sets.(default = NULL)}
+
 \item{rows}{integer, number of tag sets to return. Cannot be larger than 100 (default = 20)}
 
 \item{public}{integer, If public=1, return only public tags (default = NULL)}
