@@ -44,7 +44,9 @@ stories_public_count <-
        # fetch the data
        url <- build_url(REQUEST_URL)
        message(paste0("Query API: ", url))
-       data <- try(fromJSON(url))
+       resp <- GET(url)
+       data <- try(fromJSON(content(resp, as = "text", encoding = "UTF-8")))
+       
        if (class(data)[1] == "try-error") {
          count <- data.frame(count=as.integer(NA),
                              date="NA",
