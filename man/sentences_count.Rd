@@ -18,16 +18,6 @@ sentences_count(q, fq = NULL, split = NULL, split_start_date = NULL, split_end_d
 \item{split_start_date}{date on which to start date splits, in YYYY-MM-DD format}
 
 \item{split_end_date}{date on which to end date splits, in YYYY-MM-DD format}
-
-\item{q}{("query") parameter which the API method directly passes to Solr}
-
-\item{fq}{("filter query") parameter which the API method directly passes to Solr (default = NULL)}
-
-\item{split}{if set to 1 or true, split the counts into date ranges (default = NULL)}
-
-\item{split_start_date}{date on which to start date splits, in YYYY-MM-DD format}
-
-\item{split_end_date}{date on which to end date splits, in YYYY-MM-DD format}
 }
 \value{
 A data frame with a row for each candidate and columns with the following variables describing the candidate:\cr addlBio.candidate.shortTitle,\cr addlBio.candidate.firstName,\cr addlBio.candidate.nickName,\cr addlBio.candidate.middleName,\cr addlBio.candidate.lastName,\cr addlBio.candidate.suffix,\cr addlBio.additional.item*.name,\cr addlBio.additional.item*.data
@@ -46,7 +36,7 @@ Fetch data from the api/v2/sentences/count method of the MediaCloud API.
 \dontrun{obama <- sentences_count(q="sentence:obama", fq="media_id=1")}
 \dontrun{obama}
 # fetch count of sentences containing 'africa' in the U.S. Mainstream Media from 2014-01-01 to 2014-03-01:
-\dontrun{africa <- sentences_count(q="sentence:africa+AND+tags\\_id\\_media:8875027", split=1, split_start_date="2014-01-01", split_end_date="2014-03-01")}
+\dontrun{africa <- sentences_count(q="sentence:africa+AND+tags\_id\_media:8875027", split=1, split_start_date="2014-01-01", split_end_date="2014-03-01")}
 \dontrun{africa}
 # First, make sure your personal Mediacloud API key is saved as character string in the mc.key variable:
 \dontrun{mc.key <- "yourkey"}
